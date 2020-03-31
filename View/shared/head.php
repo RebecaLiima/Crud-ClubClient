@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         .navbar-brand { font-size: 32px}
-        .navbar { font-size: 24px;  }
+        .navbar { font-size: 18px;  }
         .table { margin-top: 10px}
     </style>
 </head>

@@ -5,14 +5,12 @@
              <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="collapsibleNavId">
-             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+             <!--<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                  <li class="nav-item active">
                      <a class="nav-link" href="#">Clientes</a>
                  </li>
-                 <li class="nav-item">
-                     <a class="nav-link" href="#">Dependentes</a>
-                 </li> 
-             </ul>
+
+             </ul>-->
 
          </div>
 </nav>
