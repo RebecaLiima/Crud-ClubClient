@@ -9,6 +9,11 @@
     <style>
         .navbar-brand { font-size: 32px}
         .navbar { font-size: 18px;  }
-        .table { margin-top: 10px}
+        .table { margin-top: 10px}  
+        .modal-dialog { max-width: 90vw; min-height: 95vh }
+        form { margin-right: 50px; min-width: 500px }
+        .table-dependente { min-width: 550px; border: 1px solid #f0f0f0; } 
+        .modal-add { max-width: 40vw }
+        
     </style>
 </head>

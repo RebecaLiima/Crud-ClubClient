@@ -10,6 +10,8 @@
         <!-- HEADER -->
         <?php include('shared/header.php') ?>
         <?php include('shared/modal-add.php')?>
+        <?php include('shared/modal-add_dependente.php')?>
+        <?php include('shared/modal-delete.php')?>
 
         <div class="menu-add mt-5">
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalScrollable">Novo Cliente</button>
@@ -33,8 +35,9 @@
                 <td>28</td>
                 <td>M</td>
                 <td>
-                    <button class="btn btn-outline-secondary">Editar / Novo Dependente</button>
-                    <button class="btn btn-outline-danger">Deletar</button>
+                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#modalDependente">Novo Dependente</button>
+                    <button class="btn btn-outline-secondary" >Editar</button>
+                    <button class="btn btn-outline-danger" data-toggle="modal" data-target="#modalDelete">Deletar</button>
                 </td>
             </tr>
             <tr>
@@ -44,8 +47,9 @@
                 <td>28</td>
                 <td>M</td>
                 <td>
-                    <button class="btn btn-outline-secondary">Editar / Novo Dependente</button>
-                    <button class="btn btn-outline-danger">Deletar</button>
+                <button class="btn btn-outline-primary" data-toggle="modal" data-target="#modalDependente">Novo Dependente</button>
+                    <button class="btn btn-outline-secondary">Editar</button>
+                    <button class="btn btn-outline-danger" data-toggle="modal" data-target="#modalDelete">Deletar</button>
                 </td>
             </tr>
 
