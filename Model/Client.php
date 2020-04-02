@@ -5,7 +5,8 @@ class Client
 {
     private $id;
     private $name;
-    private $dependentes;
+    private $dependents;
+    private $dateOfBirth;
 
     /**
      * @return mixed
@@ -26,9 +27,17 @@ class Client
     /**
      * @return mixed
      */
-    public function getDependentes()
+    public function getDependents()
     {
-        return $this->dependentes;
+        return $this->dependents;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDateOfBirth()
+    {
+        return $this->dateOfBirth;
     }
 
     /**
@@ -48,10 +57,18 @@ class Client
     }
 
     /**
-     * @param mixed $dependentes
+     * @param mixed $dependents
      */
-    public function setDependentes($dependentes)
+    public function setDependents($dependents)
     {
-        $this->dependentes = $dependentes;
+        $this->dependents = $dependents;
+    }
+
+    /**
+     * @param mixed $dateOfBirth
+     */
+    public function setDateOfBirth($dateOfBirth)
+    {
+        $this->dateOfBirth = $dateOfBirth;
     }
 }
