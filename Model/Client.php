@@ -5,8 +5,10 @@ class Client
 {
     private $id;
     private $name;
+    private $cpf;
+    private $age;
+    private $gender;
     private $dependents;
-    private $dateOfBirth;
 
     /**
      * @return mixed
@@ -41,6 +43,30 @@ class Client
     }
 
     /**
+     * @return mixed
+     */
+    public function getAge()
+    {
+        return $this->age;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getGender()
+    {
+        return $this->gender;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCpf()
+    {
+        return $this->cpf;
+    }
+
+    /**
      * @param mixed $id
      */
     public function setId($id)
@@ -70,5 +96,29 @@ class Client
     public function setDateOfBirth($dateOfBirth)
     {
         $this->dateOfBirth = $dateOfBirth;
+    }
+
+    /**
+     * @param mixed $age
+     */
+    public function setAge($age)
+    {
+        $this->age = $age;
+    }
+
+    /**
+     * @param mixed $cpf
+     */
+    public function setCpf($cpf)
+    {
+        $this->cpf = $cpf;
+    }
+
+    /**
+     * @param mixed $gender
+     */
+    public function setGender($gender)
+    {
+        $this->gender = $gender;
     }
 }
