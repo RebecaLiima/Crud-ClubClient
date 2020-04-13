@@ -16,7 +16,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
-                <button type="button" class="btn btn-danger" onclick="alert('Deletado com Sucesso')">Sim</button>
+                <button method="post" action="/View/cadastroCliente.php" id="form" name="deletar" type="button" class="btn btn-danger" onclick="alert('Deletado com Sucesso')">Sim</button>
             </div>
         </div>
     </div>

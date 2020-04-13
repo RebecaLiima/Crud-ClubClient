@@ -1,5 +1,5 @@
 <?php
-
+require_once("../Model/ClientRepository.php");
 
 class ClientController
 {
@@ -8,7 +8,7 @@ class ClientController
 
     public function __construct()
     {
-        $client = new ClientRepository();
+        $this->client = new ClientRepository();
 
     }
 

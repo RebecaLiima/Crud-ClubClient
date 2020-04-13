@@ -10,7 +10,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form method="post" action="/View/cadastroCliente.php" id="form" name="form" >
                     <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" class="form-control" id="nome">
@@ -24,10 +24,10 @@
                         <input type="text" name="idade" class="form-control" id="idade">
                     </div>
                     <div class="form-group">
-                        <label for="sexo">Idade</label>
+                        <label for="sexo">Sexo</label>
                         <input type="text" name="sexo" class="form-control" id="sexo">
                     </div>
-                    <button type="submit" class="btn btn-primary mt-4">Cadastrar</button>
+                    <button type="submit" name="cadastrar" class="btn btn-primary mt-4">Cadastrar</button>
                 </form>
             </div>
         </div>
